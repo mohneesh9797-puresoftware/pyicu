@@ -20,9 +20,6 @@ jobs:
     # - {os: windows, env: ICU_VERSION=55.2, language: sh, python: 3.8}
 
     # Run ICU 65 on every Python version.
-    - {arch: arm64, env: ICU_VERSION=65.1, python: 2.7}
-    - {arch: arm64, env: ICU_VERSION=65.1, python: 3.5}
-    - {arch: arm64, env: ICU_VERSION=65.1, python: 3.6}
     - {arch: arm64, env: ICU_VERSION=65.1, python: 3.7}
     - {arch: arm64, env: ICU_VERSION=65.1, python: 3.8}
     - {env: ICU_VERSION=65.1, python: 2.7}
@@ -33,11 +30,7 @@ jobs:
 
 
     # Run ICU 55 on every Python version.
-    - {arch: arm64, env: ICU_VERSION=55.2, python: 2.7}
-    - {arch: arm64, env: ICU_VERSION=55.2, python: 3.5}
-    - {arch: arm64, env: ICU_VERSION=55.2, python: 3.6}
-    - {arch: arm64, env: ICU_VERSION=55.2, python: 3.7}
-    - {arch: arm64, env: ICU_VERSION=55.2, python: 3.8}
+
     - {env: ICU_VERSION=55.2, python: 2.7}
     - {env: ICU_VERSION=55.2, python: 3.5}
     - {env: ICU_VERSION=55.2, python: 3.6}
@@ -45,16 +38,6 @@ jobs:
     - {env: ICU_VERSION=55.2, python: 3.8}
     # Run all other ICU versions only on Python 3.8
     - {arch: arm64, env: ICU_VERSION=64.2, python: 3.8}
-    - {arch: arm64, env: ICU_VERSION=63.2, python: 3.8}
-    - {arch: arm64, env: ICU_VERSION=62.2, python: 3.8}
-    - {arch: arm64, env: ICU_VERSION=61.2, python: 3.8}
-    - {arch: arm64, env: ICU_VERSION=60.3, python: 3.8}
-    - {arch: arm64, env: ICU_VERSION=59.2, python: 3.8}
-    - {arch: arm64, env: ICU_VERSION=58.3, python: 3.8}
-    - {arch: arm64, env: ICU_VERSION=57.2, python: 3.8}
-    - {arch: arm64, env: ICU_VERSION=56.2, python: 3.8}
-    - {arch: arm64, env: ICU_VERSION=54.2, python: 3.8}
-    - {arch: arm64, env: ICU_VERSION=53.2, python: 3.8}
     - {env: ICU_VERSION=64.2, python: 3.8}
     - {env: ICU_VERSION=63.2, python: 3.8}
     - {env: ICU_VERSION=62.2, python: 3.8}
